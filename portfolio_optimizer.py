@@ -1,12 +1,4 @@
-"""
-Project 2 – Risk-Adjusted Portfolio Optimizer (Python)
 
-Free data      :  • Yahoo Finance (prices)  • FRED (risk-free rate, optional)
-Optimiser      :  SciPy SLSQP  (no CVXPY, no paid data feeds)
-Outputs        :  tables of weights / returns / risk + Efficient Frontier plot
-Python ≥3.9    :  tested on 3.9-3.12
-Author         :  <your-name>
-"""
 
 from datetime import datetime, timedelta
 import warnings, sys, numpy as np, pandas as pd, scipy.optimize as sco, yfinance as yf
